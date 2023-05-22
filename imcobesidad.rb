@@ -32,3 +32,5 @@ altura = gets.chomp.to_f
 # Calcular el IMC y clasificar la obesidad llamando a los métodos correspondientes
 imc = calcular_imc(peso, altura)
 clasificacion_obesidad = clasificar_obesidad(imc)
+puts "El IMC es: #{imc}"
+puts "Clasificación de obesidad: #{clasificacion_obesidad}"
